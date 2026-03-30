@@ -188,7 +188,7 @@ Submit to Canvas via the assignment instructioins:
 
 1. Your **two-page report** (PDF) 
    - <u>IMPORTANT</u>: include the link to your public GitHub repository as part of this document.*
-2. Your **PDF export** of your Main Case document
+2. Your **PDF export** of your Main Case documents, including Main Case Narrative, Technical Supplement, and Additional Sources
    
    
 
