@@ -65,7 +65,7 @@ Students who already have Claude Code or VS Code + GitHub Copilot configured can
 
 Click the green **"Use this template"** button above, then **"Create a new repository"**. Name it something like `acme-dt-case-study`. Set it to **Private** for now — you will make it public before submitting.
 
-![](C:\Users\RobertSilverman\AppData\Roaming\marktext\images\2026-03-29-10-29-47-image.png)
+![Use this template button on GitHub](docs/images/use-this-template.png)
 
 ### Step 2: Get the Files onto Your Computer
 
