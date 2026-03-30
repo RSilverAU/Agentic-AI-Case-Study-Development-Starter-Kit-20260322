@@ -1,6 +1,6 @@
 # Agentic AI Case Study Development Starter Kit
 
-A starter kit for creating HBR-style MBA case studies from digital sources, guided by AI.
+A starter kit for creating Harvard Business School (HBS)-style MBA case studies from digital sources, guided by AI.
 
 [![Template Version](https://img.shields.io/badge/template-v3.1.0-blue)](TEMPLATE_VERSION)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
@@ -15,12 +15,14 @@ This repository is a **GitHub template** that gives you everything you need to d
 
 ### What You Will Produce
 
-| Document | Purpose | Length |
-|----------|---------|--------|
-| **Additional Sources** | Raw materials, bibliography, timeline, exhibits | 3,000–5,000 words |
-| **Main Case** | Protagonist-centered narrative with strategic tension | 1,500–3,000 words |
-| **Technical Supplement** | Industry context, frameworks, glossary | 500–1,500 words |
-| **ai-usage-log.md** | Running log of AI tool usage, prompts, and corrections | Maintained throughout |
+
+
+| Document                 | Purpose                                                | Length                |
+| ------------------------ | ------------------------------------------------------ | --------------------- |
+| **Main Case**            | Protagonist-centered narrative with strategic tension  | 1,500–3,000 words     |
+| **Additional Sources**   | Raw materials, bibliography, timeline, exhibits        | 3,000–5,000 words     |
+| **Technical Supplement** | Industry context, frameworks, glossary                 | 500–1,500 words       |
+| **ai-usage-log.md**      | Running log of AI tool usage, prompts, and corrections | Maintained throughout |
 
 > **Note**: The full starter kit supports a fourth document (Teaching Note). This assignment does not require it — focus on the three documents above.
 
@@ -33,6 +35,7 @@ This repository is a **GitHub template** that gives you everything you need to d
 **See [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) for full setup and workflow instructions.**
 
 What you need for the Cowork path:
+
 - Claude Pro subscription ($20/month) + Claude desktop app
 - GitHub account (free) + GitHub Desktop (free) — required for submission
 - Perplexity — for research queries and source discovery (separate tool, used alongside Claude)
@@ -43,16 +46,16 @@ What you need for the Cowork path:
 
 Students who already have Claude Code or VS Code + GitHub Copilot configured can use those tools instead. All three paths produce the same outputs and work with the same repository structure.
 
-| Feature | **Claude Cowork** ⭐ | Claude Code | VS Code + Copilot | Chat Tools |
-|---------|---------------------|-------------|-------------------|------------|
-| Reads local files | Yes | Yes | Yes (Agent Mode) | No |
-| Writes/edits files | Yes | Yes | Yes (Agent Mode) | No |
-| Runs terminal commands | No | Yes | Yes | No |
-| `/slash-commands` | No (plain English) | Yes (16 skills) | No (natural language) | No |
-| Git workflow | GitHub Desktop | Built-in | Built-in | Manual |
-| Setup complexity | Low | Medium | Medium | Minimal |
-| Best for | Most students | Claude Code users | GitHub Education users | Last resort |
-| Setup guide | [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) | [README — Option A](#option-a-claude-code) | [README — Option B](#option-b-vs-code--github-copilot-free-for-students) | [STARTER_PROMPT.md](STARTER_PROMPT.md) |
+| Feature                | **Claude Cowork** ⭐                                        | Claude Code                                | VS Code + Copilot                                                        | Other Chat Tools                       |
+| ---------------------- | ---------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------ | -------------------------------------- |
+| Reads local files      | Yes                                                        | Yes                                        | Yes (Agent Mode)                                                         | No                                     |
+| Writes/edits files     | Yes                                                        | Yes                                        | Yes (Agent Mode)                                                         | No                                     |
+| Runs terminal commands | No                                                         | Yes                                        | Yes                                                                      | No                                     |
+| `/slash-commands`      | No (plain English)                                         | Yes (16 skills)                            | No (natural language)                                                    | No                                     |
+| Git workflow           | GitHub Desktop                                             | Built-in                                   | Built-in                                                                 | Manual                                 |
+| Setup complexity       | Low                                                        | Medium                                     | Medium                                                                   | Minimal                                |
+| Best for               | Most students                                              | Claude Code users                          | GitHub Education users                                                   | Last resort                            |
+| Setup guide            | [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) | [QUICKSTART-CLAUDE-CODE.md](QUICKSTART-CLAUDE-CODE.md) | [QUICKSTART-COPILOT.md](QUICKSTART-COPILOT.md) | [STARTER_PROMPT.md](STARTER_PROMPT.md) |
 
 ---
 
@@ -61,6 +64,8 @@ Students who already have Claude Code or VS Code + GitHub Copilot configured can
 ### Step 1: Create Your Repository
 
 Click the green **"Use this template"** button above, then **"Create a new repository"**. Name it something like `acme-dt-case-study`. Set it to **Private** for now — you will make it public before submitting.
+
+![](C:\Users\RobertSilverman\AppData\Roaming\marktext\images\2026-03-29-10-29-47-image.png)
 
 ### Step 2: Get the Files onto Your Computer
 
@@ -86,63 +91,20 @@ cd YOUR-REPO-NAME
 3. Unzip to a local folder not synced to OneDrive or iCloud.
 
 Note: Without Git, you will not have version history and cannot push to GitHub for submission. You will need to set up GitHub Desktop later to submit.
+
 </details>
 
-### Step 3: Choose Your AI Tool
+### Step 3: Choose Your AI Tool and Follow Your Quickstart
 
 **→ Cowork users**: See [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) for the complete step-by-step guide. Start there and follow it through submission.
 
-**→ All other paths**: Continue with the options below.
+**→ All other paths**: See the dedicated quickstart for your tool:
 
----
+- **Claude Code** → [QUICKSTART-CLAUDE-CODE.md](QUICKSTART-CLAUDE-CODE.md)
+- **VS Code + GitHub Copilot** → [QUICKSTART-COPILOT.md](QUICKSTART-COPILOT.md)
+- **Chat tools (ChatGPT, Claude.ai, Gemini)** → Open [STARTER_PROMPT.md](STARTER_PROMPT.md), copy the prompt inside, and paste it into your chat tool. Note: chat tools cannot read files on your computer directly — this path requires more manual effort and is a last resort.
 
-#### Option A: Claude Code
-
-Claude Code reads your files, runs `/slash-commands`, and manages the workflow automatically.
-
-1. Open your project folder in Claude Code.
-2. Say: **"Help me develop my case study"** or run `/setup-case`.
-
-#### Option B: VS Code + GitHub Copilot (Free for Students)
-
-1. Sign up for **GitHub Education** at [education.github.com](https://education.github.com) to get **Copilot Pro free**.
-2. Install [VS Code](https://code.visualstudio.com/) and the **GitHub Copilot** extension.
-3. Open your project folder in VS Code.
-4. Open the Copilot chat panel, select **Agent Mode**, and say: **"Help me develop my case study"**.
-
-Copilot reads `.github/copilot-instructions.md` automatically. Use natural language instead of `/slash-commands`.
-
-#### Option C: Chat Tools (ChatGPT, Claude.ai, Gemini)
-
-Chat tools cannot read files on your computer directly. This path requires more manual effort and is a last resort.
-
-1. Open [STARTER_PROMPT.md](STARTER_PROMPT.md) and copy the prompt inside.
-2. Paste it into your chat tool.
-3. Upload or paste your source materials when the AI asks for them.
-
-### Step 4: Configure Your Case
-
-| Tool | How to configure |
-|------|-----------------|
-| **Cowork** | Say *"Please run setup-case"* |
-| Claude Code | Run `/setup-case` |
-| VS Code + Copilot | Say *"Help me configure my case study"* in Agent Mode |
-| Manual | Edit `case-config.yaml` with your case details |
-
-### Step 5: Gather Sources and Write
-
-Add research materials to `sources/` (transcripts, articles, financial reports). Then follow the AI-guided process to write your three documents in order: Additional Sources → Main Case → Technical Supplement.
-
-**Save your progress** after each major step:
-
-**GitHub Desktop**: Open GitHub Desktop → write a commit message → click **Commit to main** → click **Push origin**.
-
-**Claude Code / VS Code terminal**:
-```bash
-git add -A && git commit -m "Complete Additional Sources draft" && git push
-```
-
-Or in Claude Code, run `/git-update`.
+Your quickstart covers everything from here: configuring your case, gathering sources, writing all three documents, verifying your work, and submitting.
 
 ---
 
@@ -155,14 +117,14 @@ SETUP → SOURCES → ASSESS → WRITE → [gap found?] → back to SOURCES
                                   → [no gap] → VERIFY → PUBLISH
 ```
 
-| Phase | What to Do | Cowork | Claude Code |
-|-------|-----------|--------|-------------|
-| 1. Configure | Set up case details | *"Please run setup-case"* | `/setup-case` |
-| 2. Add Sources | Register source materials | *"Scan sources/ and register files"* | `/add-sources` |
-| 3. Assess | Evaluate source quality | *"Assess my source quality"* | `/assess-sources` |
-| 4. Write | Create documents in order | *"Help me write the next document"* | `/write-document` |
-| 5. Verify | Run quality checks | *"Run all quality checks"* | `/verify-all` |
-| 6. Publish | Export PDFs, make repo public | *"Prepare for PDF export"* | `/export-pdf` |
+| Phase          | What to Do                    | Cowork                               | Claude Code       |
+| -------------- | ----------------------------- | ------------------------------------ | ----------------- |
+| 1. Configure   | Set up case details           | *"Please run setup-case"*            | `/setup-case`     |
+| 2. Add Sources | Register source materials     | *"Scan sources/ and register files"* | `/add-sources`    |
+| 3. Assess      | Evaluate source quality       | *"Assess my source quality"*         | `/assess-sources` |
+| 4. Write       | Create documents in order     | *"Help me write the next document"*  | `/write-document` |
+| 5. Verify      | Run quality checks            | *"Run all quality checks"*           | `/verify-all`     |
+| 6. Publish     | Export PDFs, make repo public | *"Prepare for PDF export"*           | `/export-pdf`     |
 
 Check your progress anytime: `/check-status` (Claude Code) or *"What's the current status of my case study?"* (Cowork).
 
@@ -170,22 +132,24 @@ Check your progress anytime: `/check-status` (Claude Code) or *"What's the curre
 
 ## What's in This Repository
 
-| Path | Purpose |
-|------|---------|
-| `QUICKSTART-CLAUDE-COWORK.md` | **Recommended**: Full setup and workflow guide for Cowork users |
-| `STARTER_PROMPT.md` | Prompt for chat tools (ChatGPT, Claude.ai, Gemini) only |
-| `WORKFLOW.md` | Detailed phase-by-phase workflow reference |
-| `case-config.yaml` | Central configuration (auto-written by setup) |
-| `verification-debt.yaml` | Tracks unverified AI-generated claims |
-| `sources/` | Your research materials |
-| `sources/Source_Registry.md` | Source catalog with quality tiers |
-| `case-study/` | Where your three case documents will live |
-| `exports/` | PDF exports for submission |
-| `ai-usage-log.md` | Running log of AI usage (required deliverable) |
-| `templates/` | Detailed prompts, QA workflows, source guides |
-| `.claude/skills/` | Claude Code skill definitions (also read by Cowork) |
-| `.github/copilot-instructions.md` | VS Code Copilot custom instructions |
-| `PROJECT_CONTEXT.md` | Session continuity context |
+| Path                              | Purpose                                                         |
+| --------------------------------- | --------------------------------------------------------------- |
+| `QUICKSTART-CLAUDE-COWORK.md`     | **Recommended**: Full setup and workflow guide for Cowork users  |
+| `QUICKSTART-CLAUDE-CODE.md`       | Alternative: Full setup and workflow guide for Claude Code users |
+| `QUICKSTART-COPILOT.md`           | Alternative: Full setup and workflow guide for VS Code + Copilot users |
+| `STARTER_PROMPT.md`               | Prompt for chat tools (ChatGPT, Claude.ai, Gemini) only          |
+| `WORKFLOW.md`                     | Detailed phase-by-phase workflow reference                      |
+| `case-config.yaml`                | Central configuration (auto-written by setup)                   |
+| `verification-debt.yaml`          | Tracks unverified AI-generated claims                           |
+| `sources/`                        | Your research materials                                         |
+| `sources/Source_Registry.md`      | Source catalog with quality tiers                               |
+| `case-study/`                     | Where your three case documents will live                       |
+| `exports/`                        | PDF exports for submission                                      |
+| `ai-usage-log.md`                 | Running log of AI usage (required deliverable)                  |
+| `templates/`                      | Detailed prompts, QA workflows, source guides                   |
+| `.claude/skills/`                 | Claude Code skill definitions (also read by Cowork)             |
+| `.github/copilot-instructions.md` | VS Code Copilot custom instructions                             |
+| `PROJECT_CONTEXT.md`              | Session continuity context                                      |
 
 ---
 
@@ -197,19 +161,19 @@ Check your progress anytime: `/check-status` (Claude Code) or *"What's the curre
 
 **VS Code + Copilot users**: Ask in natural language in Agent Mode.
 
-| Command | Cowork plain English | Purpose |
-|---------|---------------------|---------|
-| `/setup-case` | *"Please run setup-case"* | Configure project |
-| `/add-sources` | *"Scan sources/ and register new files"* | Register source materials |
-| `/assess-sources` | *"Assess my source quality"* | Evaluate with go/no-go gate |
-| `/write-document` | *"Help me write the next document"* | Guided document writing |
-| `/check-status` | *"What's the current status?"* | Project dashboard |
-| `/verify-all` | *"Run all quality checks"* | Full verification suite |
-| `/validate-financials` | *"Check all financial figures"* | Arithmetic accuracy |
-| `/assess-bias` | *"Assess my source balance"* | Perspective balance |
-| `/add-disclaimers` | *"Add AI methodology disclaimers"* | Pre-export disclaimers |
-| `/export-pdf` | *"Prepare for PDF export"* | Format for distribution |
-| `/git-update` | GitHub Desktop: commit + push | Save and push to GitHub |
+| Command                | Cowork plain English                     | Purpose                     |
+| ---------------------- | ---------------------------------------- | --------------------------- |
+| `/setup-case`          | *"Please run setup-case"*                | Configure project           |
+| `/add-sources`         | *"Scan sources/ and register new files"* | Register source materials   |
+| `/assess-sources`      | *"Assess my source quality"*             | Evaluate with go/no-go gate |
+| `/write-document`      | *"Help me write the next document"*      | Guided document writing     |
+| `/check-status`        | *"What's the current status?"*           | Project dashboard           |
+| `/verify-all`          | *"Run all quality checks"*               | Full verification suite     |
+| `/validate-financials` | *"Check all financial figures"*          | Arithmetic accuracy         |
+| `/assess-bias`         | *"Assess my source balance"*             | Perspective balance         |
+| `/add-disclaimers`     | *"Add AI methodology disclaimers"*       | Pre-export disclaimers      |
+| `/export-pdf`          | *"Prepare for PDF export"*               | Format for distribution     |
+| `/git-update`          | GitHub Desktop: commit + push            | Save and push to GitHub     |
 
 ---
 
@@ -220,27 +184,30 @@ Before submitting, make your GitHub repository **public**:
 1. Go to your repo on [github.com](https://github.com/).
 2. Click **Settings → scroll to Danger Zone → Change visibility → Make public**.
 
-Submit to Canvas:
-1. Your **two-page report** (PDF)
-2. **PDF export** of your Main Case document
-3. **Link to your public GitHub repository**
+Submit to Canvas via the assignment instructioins:
+
+1. Your **two-page report** (PDF) 
+   - <u>IMPORTANT</u>: include the link to your public GitHub repository as part of this document.*
+2. Your **PDF export** of your Main Case document
+   
+   
 
 ---
 
 ## Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| `git: command not found` | Install Git from [git-scm.com/downloads](https://git-scm.com/downloads), then restart your terminal |
-| `git clone` fails | Make sure you're using the HTTPS URL (starts with `https://`), not SSH |
-| `uv: command not found` | Install uv from [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/), then restart your terminal |
-| Copilot not in Agent Mode | Click the mode selector in the Copilot chat panel and select "Agent" |
-| Claude Code `/setup-case` not found | Make sure you opened the **cloned project folder** in VS Code or navigated to it in the CLI |
-| Cowork can't access files | Make sure the working folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork |
-| Cowork lost session context | Say: *"Please read ai-usage-log.md and case-config.yaml to catch up on my project"* |
-| GitHub Desktop shows no changes | Click **Repository → Refresh** in GitHub Desktop |
-| Can't push to GitHub | Make sure you're signed in to GitHub Desktop with the account that owns the repo |
-| AI generated unverifiable content | Flag it, find a source or remove the claim, and document the correction in ai-usage-log.md |
+| Problem                             | Solution                                                                                                                 |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `git: command not found`            | Install Git from [git-scm.com/downloads](https://git-scm.com/downloads), then restart your terminal                      |
+| `git clone` fails                   | Make sure you're using the HTTPS URL (starts with `https://`), not SSH                                                   |
+| `uv: command not found`             | Install uv from [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/), then restart your terminal |
+| Copilot not in Agent Mode           | Click the mode selector in the Copilot chat panel and select "Agent"                                                     |
+| Claude Code `/setup-case` not found | Make sure you opened the **cloned project folder** in VS Code or navigated to it in the CLI                              |
+| Cowork can't access files           | Make sure the working folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork    |
+| Cowork lost session context         | Say: *"Please read ai-usage-log.md and case-config.yaml to catch up on my project"*                                      |
+| GitHub Desktop shows no changes     | Click **Repository → Refresh** in GitHub Desktop                                                                         |
+| Can't push to GitHub                | Make sure you're signed in to GitHub Desktop with the account that owns the repo                                         |
+| AI generated unverifiable content   | Flag it, find a source or remove the claim, and document the correction in ai-usage-log.md                               |
 
 Still stuck? Ask your instructor or TA for help.
 
