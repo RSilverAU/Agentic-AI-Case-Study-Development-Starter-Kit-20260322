@@ -85,7 +85,7 @@ A YELLOW rating means you can start writing but should expect to loop back for m
 
 ## Phase 3: Writing
 
-### Document Sequence
+### Document <u>Creation </u>Sequence
 
 Create the three required documents **in this order**. Each builds on the previous ones — do not skip ahead.
 
@@ -198,4 +198,4 @@ These standards apply regardless of which AI tool you use. AI generates drafts; 
 
 **Voice consistency**: The case should read as a single authored document, not as a sequence of AI responses. Revise for voice consistency after drafting.
 
-> **Public Policy Cases**: If your case involves public policy or political leadership, tell your AI tool during setup (select "public policy") and reference `templates/HKS_PUBLIC_POLICY_GUIDANCE.md` for adapted frameworks.
+>  **NOTE: Public Policy Cases**: This template can also be used to support public policy and political leadership scenarios.If your case involves public policy or political leadership, tell your AI tool during setup (select "public policy") and reference `templates/HKS_PUBLIC_POLICY_GUIDANCE.md` for adapted frameworks.
