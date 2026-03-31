@@ -184,11 +184,7 @@ Before submitting, make your GitHub repository **public**:
 1. Go to your repo on [github.com](https://github.com/).
 2. Click **Settings → scroll to Danger Zone → Change visibility → Make public**.
 
-Submit to Canvas via the assignment instructioins:
-
-1. Your **two-page report** (PDF) 
-   - <u>IMPORTANT</u>: include the link to your public GitHub repository as part of this document.*
-2. Your **PDF export** of your Main Case documents, including Main Case Narrative, Technical Supplement, and Additional Sources
+Then follow the submission instructions on the Canvas assignment page for the complete list of deliverables, file naming requirements, and upload steps.
    
    
 

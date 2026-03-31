@@ -122,7 +122,7 @@ Before moving from one document to the next, check that no claims in the complet
 
 ### Keeping Your AI Usage Log Current
 
-`ai-usage-log.md` is a required, graded deliverable. Update it throughout each session — not just at the end. Capture the prompts you used, what the AI generated, and any corrections you made. Your AI tool can maintain this log automatically if you prompt it to do so periodically.
+`ai-usage-log.md` is a required deliverable that contributes directly to the **AI Tool Usage & Process** and **Verification** rubric dimensions in the Canvas assignment. Update it throughout each session — not just at the end. Capture the prompts you used, what the AI generated, and any corrections you made. Your AI tool can maintain this log automatically if you prompt it to do so periodically.
 
 ---
 

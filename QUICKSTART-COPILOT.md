@@ -245,14 +245,7 @@ Then export from VS Code's markdown preview or your preferred markdown editor to
 4. Click **Change repository visibility → Make public**.
 5. Confirm.
 
-**Submit to Canvas**:
-
-1. Your **two-page report** (PDF) — summarizing case quality, verification, reflection, and AI tool usage
-2. **PDF export(s) of your case study documents** (may be combined into one PDF):
-   - Document 1: Main Case Narrative
-   - Document 2: Technical Supplement
-   - Document 3: Additional Sources
-3. **Link to your public GitHub repository**
+**Submit to Canvas**: Follow the submission instructions on the Canvas assignment page. In brief, you will submit your two-page report (PDF), PDF export(s) of your case study documents, and a link to your public GitHub repository. See the assignment page for file naming requirements and the complete deliverables list.
 
 ---
 

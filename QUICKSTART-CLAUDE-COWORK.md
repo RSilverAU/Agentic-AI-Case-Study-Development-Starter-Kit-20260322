@@ -1,6 +1,6 @@
 # Quick Start: Claude Cowork — Recommended Path
 
-This guide walks you through building your HBR-style case study using **Claude Cowork** — the recommended path for this assignment. Cowork gives Claude direct access to your case study folder on your computer. You interact entirely through a chat interface; Claude reads and writes your files, guides the research and writing process, and keeps a running log of everything you do.
+This guide walks you through building your Harvard Business School (HBS)-style case study using **Claude Cowork** — the recommended path for this assignment. Cowork gives Claude direct access to your case study folder on your computer. You interact entirely through a chat interface; Claude reads and writes your files, guides the research and writing process, and keeps a running log of everything you do.
 
 No terminal. No command-line tools. No extensions to install beyond Claude itself.
 
@@ -213,11 +213,7 @@ Then export from your word processor or markdown editor to PDF. Save the PDF to 
 4. Click **Change repository visibility → Make public**.
 5. Confirm.
 
-**Submit to Canvas**:
-
-1. Your **two-page report** (PDF) — summarizing case quality, verification, reflection, and AI tool usage
-2. **PDF export** of your Main Case document
-3. **Link to your public GitHub repository**
+**Submit to Canvas**: Follow the submission instructions on the Canvas assignment page. In brief, you will submit your two-page report (PDF), PDF export(s) of your case study documents, and a link to your public GitHub repository. See the assignment page for file naming requirements and the complete deliverables list.
 
 ---
 
