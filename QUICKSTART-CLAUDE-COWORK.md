@@ -4,7 +4,7 @@ This guide walks you through building your Harvard Business School (HBS)-style c
 
 No terminal. No command-line tools. No extensions to install beyond Claude itself.
 
-NOTE: See **WORKFLOW.md** in the repository for more details about the process of building your business case.
+NOTE: See **[WORKFLOW.md](WORKFLOW.md)** in the repository for more guidance about the process you can use for building your business case.
 
 ---
 
@@ -81,6 +81,8 @@ This produces the iterative, timestamped log the assignment requires and serves 
 ---
 
 ## Step 5: Configure Your Case Study
+
+*<mark>**NOTE**</mark>: Additional guidance on the process you can take to build the case can be found in [WORKFLOW.md](WORKFLOW.MD).*
 
 Tell Claude about your company and DT initiative. In the Cowork chat, say:
 
@@ -241,16 +243,8 @@ Then export each document from your word processor or markdown editor to PDF. Sa
 
 ## Troubleshooting
 
-| Problem                                  | Solution                                                                                                                               |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Cowork can't access my files             | Make sure the folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork                          |
-| Claude doesn't know my case details      | Say: *"Please read case-config.yaml and CLAUDE.md to catch up on my project"*                                                          |
-| Session lost context between chats       | Say: *"Please read ai-usage-log.md, case-config.yaml, and the latest document in case-study/ to catch up"*                             |
-| Claude says it can't find a skill        | Say: *"Please read the file at .claude/skills/[skill-name].md and follow its instructions"* (e.g., `.claude/skills/assess-sources.md`) |
-| Claude produces unverifiable claims      | This is expected — flag it, find a source, or remove the claim. Document in ai-usage-log.md                                            |
-| GitHub Desktop shows "no changes"        | Cowork may have saved changes inside the folder that Git doesn't see yet. Try clicking **Repository → Refresh** in GitHub Desktop      |
-| Can't push to GitHub                     | Make sure you're signed in to GitHub Desktop with the same account that owns the repo. Try **Repository → Push** from the menu         |
-| Sources folder is empty after dragging   | Confirm Claude has access to the correct local folder in Cowork. Ask: *"What files can you see in sources/?"*                          |
-| Can't find Cowork mode in the Claude app | Check that you have the latest version of the Claude desktop app and an active Claude Pro subscription                                 |
-
-Still stuck? Ask your instructor or TA for help.
+| Problem                             | Solution                                                                                                      |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Cowork can't access my files        | Make sure the folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork |
+| Claude doesn't know my case details | Say: *"Please read case-config.yaml and CLAUDE.md to catch up on my project"*                                 |
+| Session lost context between chats  | Say: *"Please read ai-usage-log.md, case-config.yaml, and the latest document in case-study/ to catch up"*    |
