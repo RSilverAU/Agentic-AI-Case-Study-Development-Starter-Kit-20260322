@@ -197,9 +197,9 @@ Your work is now saved to GitHub with a timestamped record. Do this after every 
 
 When your case study is complete:
 
-> *"Please prepare my Main Case document for PDF export — add the required AI methodology disclaimer and review the formatting."*
+> *"Please prepare my case documents for PDF export — add the required AI methodology disclaimer to each and review the formatting."*
 
-Then export from your word processor or markdown editor to PDF. Save the PDF to the `exports/` folder.
+Then export each document from your word processor or markdown editor to PDF. Save all PDFs to the `exports/` folder. You may submit the three documents as separate PDFs or combine them into one — either is acceptable.
 
 ---
 
@@ -213,7 +213,7 @@ Then export from your word processor or markdown editor to PDF. Save the PDF to 
 4. Click **Change repository visibility → Make public**.
 5. Confirm.
 
-**Submit to Canvas**: Follow the submission instructions on the Canvas assignment page. In brief, you will submit your two-page report (PDF), PDF export(s) of your case study documents, and a link to your public GitHub repository. See the assignment page for file naming requirements and the complete deliverables list.
+**Submit to Canvas**: See the **Assignment Instructions PDF** on Canvas for the complete deliverables list and file-naming requirements. In brief, you will submit your two-page report (PDF), PDF export(s) of your three case documents (Main Case, Technical Supplement, and Additional Sources — combined into one PDF or separate files), and a link to your public GitHub repository.
 
 ---
 

@@ -140,7 +140,9 @@ Ask Copilot to guide you through each document (Agent Mode):
 
 Copilot will check prerequisites, determine the next document, ask setup questions, write section by section pausing for your feedback, flag unverified claims, and save the completed document to `case-study/`.
 
-### Case Study Document 1: Additional Sources
+> **Document name mapping**: These document numbers reflect the writing order. In the Assignment PDF they are referred to as: Document 1 = Additional Sources Document, Document 2 = Main Case Narrative, Document 3 = Technical Supplement.
+
+### Case Study Document 1: Additional Sources Document
 
 Compiles your raw research into a structured reference — excerpts, quotes, timeline, bibliography.
 
@@ -245,7 +247,7 @@ Then export from VS Code's markdown preview or your preferred markdown editor to
 4. Click **Change repository visibility → Make public**.
 5. Confirm.
 
-**Submit to Canvas**: Follow the submission instructions on the Canvas assignment page. In brief, you will submit your two-page report (PDF), PDF export(s) of your case study documents, and a link to your public GitHub repository. See the assignment page for file naming requirements and the complete deliverables list.
+**Submit to Canvas**: The **Assignment Instructions PDF** on Canvas is the authoritative source for grading criteria, file-naming requirements, and the complete deliverables list. In brief, you will submit your two-page report (PDF), PDF export(s) of your three case documents (Main Case Narrative, Technical Supplement, and Additional Sources Document — combined into one PDF or separate files), and a link to your public GitHub repository.
 
 ---
 

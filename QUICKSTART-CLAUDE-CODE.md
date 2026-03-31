@@ -149,6 +149,8 @@ Claude Code will:
 - Flag unverified claims inline
 - Save the completed document to `case-study/`
 
+> **Document name mapping**: These document numbers reflect the writing order. In the Assignment PDF they are referred to as: Document 1 = Additional Sources Document, Document 2 = Main Case Narrative, Document 3 = Technical Supplement.
+
 ### Case Study Document 1: Additional Sources
 
 Compiles your raw research into a structured reference — excerpts, quotes, timeline, bibliography. Run `/write-document` and Claude Code will select this first.

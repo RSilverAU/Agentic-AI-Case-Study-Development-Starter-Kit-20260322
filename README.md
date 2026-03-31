@@ -2,7 +2,7 @@
 
 A starter kit for creating Harvard Business School (HBS)-style MBA case studies from digital sources, guided by AI.
 
-[![Template Version](https://img.shields.io/badge/template-v3.1.0-blue)](TEMPLATE_VERSION)
+[![Template Version](https://img.shields.io/badge/template-v3.1.2-blue)](TEMPLATE_VERSION)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 
 > **REVISED — March 2026**: Claude Cowork is now the **recommended path** for this assignment — no terminal, no extensions, no Git knowledge required. See [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) to get started. Students who already use Claude Code or VS Code + Copilot can continue with those paths using the alternative quickstarts below.
@@ -145,7 +145,7 @@ Check your progress anytime: `/check-status` (Claude Code) or *"What's the curre
 | `sources/Source_Registry.md`      | Source catalog with quality tiers                               |
 | `case-study/`                     | Where your three case documents will live                       |
 | `exports/`                        | PDF exports for submission                                      |
-| `ai-usage-log.md`                 | Running log of AI usage (required deliverable)                  |
+| `ai-usage-log.md`                 | Running log of AI usage (required deliverable — contributes directly to the AI Tool Usage & Process and Verification rubric dimensions described in the Assignment PDF) |
 | `templates/`                      | Detailed prompts, QA workflows, source guides                   |
 | `.claude/skills/`                 | Claude Code skill definitions (also read by Cowork)             |
 | `.github/copilot-instructions.md` | VS Code Copilot custom instructions                             |
@@ -215,4 +215,4 @@ This methodology was developed through the creation of MBA case studies for ITEC
 
 ---
 
-*Template Version: 3.1.0*
+*Template Version: 3.1.2*

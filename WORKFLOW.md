@@ -167,7 +167,7 @@ Before exporting, your documents must include a brief statement disclosing that 
 
 ### Export to PDF
 
-Export your Main Case to PDF format and save it to the `exports/` folder. The PDF is one of your submission deliverables.
+Export your case documents to PDF format and save them to the `exports/` folder. PDFs are required submission deliverables — you will submit all three (Main Case, Technical Supplement, and Additional Sources), either as separate files or combined into one PDF.
 
 ### Make Repository Public
 
@@ -178,10 +178,7 @@ Your GitHub repository must be public for submission:
 
 ### Submit to Canvas
 
-Per the assignment instructions, submit:
-
-1. Your **two-page report** (PDF) — include the link to your public GitHub repository in this document
-2. **PDF export** of your Main Case document
+See the **Assignment Instructions PDF** on Canvas for the complete deliverables list and file-naming requirements. In brief, you will submit your two-page report (PDF), PDF export(s) of your three case documents, and a link to your public GitHub repository.
 
 ---
 
