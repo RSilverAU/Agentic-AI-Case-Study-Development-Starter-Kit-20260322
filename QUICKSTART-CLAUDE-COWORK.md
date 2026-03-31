@@ -4,17 +4,19 @@ This guide walks you through building your Harvard Business School (HBS)-style c
 
 No terminal. No command-line tools. No extensions to install beyond Claude itself.
 
+NOTE: See **WORKFLOW.md** in the repository for more details about the process of building your business case.
+
 ---
 
 ## What You Need
 
-| Requirement | Details |
-| --- | --- |
-| **Claude Pro subscription** | $20/month at [claude.ai](https://claude.ai/) — gives you access to the Claude desktop app |
-| **Claude desktop app** | Download at [claude.ai/download](https://claude.ai/download) — Mac and Windows |
-| **GitHub account** | Free at [github.com](https://github.com/) — needed to create your repo from the template |
-| **GitHub Desktop** | Free at [desktop.github.com](https://desktop.github.com/) — required for submission (see note below) |
-| **Perplexity** | Used separately for research queries and source discovery — access via AU at [perplexity.ai](https://www.perplexity.ai/) |
+| Requirement                 | Details                                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Claude Pro subscription** | $20/month at [claude.ai](https://claude.ai/) — gives you access to the Claude desktop app                                |
+| **Claude desktop app**      | Download at [claude.ai/download](https://claude.ai/download) — Mac and Windows                                           |
+| **GitHub account**          | Free at [github.com](https://github.com/) — needed to create your repo from the template                                 |
+| **GitHub Desktop**          | Free at [desktop.github.com](https://desktop.github.com/) — required for submission (see note below)                     |
+| **Perplexity**              | Used separately for research queries and source discovery — access via AU at [perplexity.ai](https://www.perplexity.ai/) |
 
 > **Why GitHub Desktop is required**: The assignment requires you to submit a link to a public GitHub repository containing your case study. GitHub Desktop handles all the git mechanics — committing your work and pushing it to GitHub — with no command-line knowledge needed. You will use it for 2–3 clicks after each major work session.
 
@@ -118,6 +120,7 @@ Open File Explorer (Windows) or Finder (Mac) and drag your files into the approp
 > *"Please scan the sources/ folder, register any new files in the Source Registry, and give me an honest assessment of my source quality. Tell me whether I have enough to start writing, and what gaps I should fill first."*
 
 Claude will evaluate depth, breadth, and reliability, and give you a **go/no-go** signal:
+
 - **Green** — ready to write
 - **Yellow** — can proceed with caution; gaps noted
 - **Red** — need more sources before writing
@@ -167,6 +170,7 @@ This step is **just as important as writing** — it is a graded component. Befo
 > *"Please run all quality checks on my case study. Check every factual claim against the sources in sources/, flag any quotes or statistics you cannot trace back to a named source, and identify anything that may be AI-generated rather than sourced."*
 
 Claude will check:
+
 - Quote traceability — every quote back to a dated source
 - Data point attribution — every number to a named document
 - Cross-document consistency — same figures used throughout
@@ -237,16 +241,16 @@ Then export each document from your word processor or markdown editor to PDF. Sa
 
 ## Troubleshooting
 
-| Problem | Solution |
-| --- | --- |
-| Cowork can't access my files | Make sure the folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork |
-| Claude doesn't know my case details | Say: *"Please read case-config.yaml and CLAUDE.md to catch up on my project"* |
-| Session lost context between chats | Say: *"Please read ai-usage-log.md, case-config.yaml, and the latest document in case-study/ to catch up"* |
-| Claude says it can't find a skill | Say: *"Please read the file at .claude/skills/[skill-name].md and follow its instructions"* (e.g., `.claude/skills/assess-sources.md`) |
-| Claude produces unverifiable claims | This is expected — flag it, find a source, or remove the claim. Document in ai-usage-log.md |
-| GitHub Desktop shows "no changes" | Cowork may have saved changes inside the folder that Git doesn't see yet. Try clicking **Repository → Refresh** in GitHub Desktop |
-| Can't push to GitHub | Make sure you're signed in to GitHub Desktop with the same account that owns the repo. Try **Repository → Push** from the menu |
-| Sources folder is empty after dragging | Confirm Claude has access to the correct local folder in Cowork. Ask: *"What files can you see in sources/?"* |
-| Can't find Cowork mode in the Claude app | Check that you have the latest version of the Claude desktop app and an active Claude Pro subscription |
+| Problem                                  | Solution                                                                                                                               |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Cowork can't access my files             | Make sure the folder is **not** inside OneDrive or iCloud. Move it to a local path and re-select it in Cowork                          |
+| Claude doesn't know my case details      | Say: *"Please read case-config.yaml and CLAUDE.md to catch up on my project"*                                                          |
+| Session lost context between chats       | Say: *"Please read ai-usage-log.md, case-config.yaml, and the latest document in case-study/ to catch up"*                             |
+| Claude says it can't find a skill        | Say: *"Please read the file at .claude/skills/[skill-name].md and follow its instructions"* (e.g., `.claude/skills/assess-sources.md`) |
+| Claude produces unverifiable claims      | This is expected — flag it, find a source, or remove the claim. Document in ai-usage-log.md                                            |
+| GitHub Desktop shows "no changes"        | Cowork may have saved changes inside the folder that Git doesn't see yet. Try clicking **Repository → Refresh** in GitHub Desktop      |
+| Can't push to GitHub                     | Make sure you're signed in to GitHub Desktop with the same account that owns the repo. Try **Repository → Push** from the menu         |
+| Sources folder is empty after dragging   | Confirm Claude has access to the correct local folder in Cowork. Ask: *"What files can you see in sources/?"*                          |
+| Can't find Cowork mode in the Claude app | Check that you have the latest version of the Claude desktop app and an active Claude Pro subscription                                 |
 
 Still stuck? Ask your instructor or TA for help.

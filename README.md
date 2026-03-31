@@ -15,8 +15,6 @@ This repository is a **GitHub template** that gives you everything you need to d
 
 ### What You Will Produce
 
-
-
 | Document                 | Purpose                                                | Length                |
 | ------------------------ | ------------------------------------------------------ | --------------------- |
 | **Main Case**            | Protagonist-centered narrative with strategic tension  | 1,500–3,000 words     |
@@ -46,15 +44,15 @@ What you need for the Cowork path:
 
 Students who already have Claude Code or VS Code + GitHub Copilot configured can use those tools instead. All three paths produce the same outputs and work with the same repository structure.
 
-| Feature                | **Claude Cowork** ⭐                                        | Claude Code                                | VS Code + Copilot                                                        | Other Chat Tools                       |
-| ---------------------- | ---------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------ | -------------------------------------- |
-| Reads local files      | Yes                                                        | Yes                                        | Yes (Agent Mode)                                                         | No                                     |
-| Writes/edits files     | Yes                                                        | Yes                                        | Yes (Agent Mode)                                                         | No                                     |
-| Runs terminal commands | No                                                         | Yes                                        | Yes                                                                      | No                                     |
-| `/slash-commands`      | No (plain English)                                         | Yes (16 skills)                            | No (natural language)                                                    | No                                     |
-| Git workflow           | GitHub Desktop                                             | Built-in                                   | Built-in                                                                 | Manual                                 |
-| Setup complexity       | Low                                                        | Medium                                     | Medium                                                                   | Minimal                                |
-| Best for               | Most students                                              | Claude Code users                          | GitHub Education users                                                   | Last resort                            |
+| Feature                | **Claude Cowork** ⭐                                        | Claude Code                                            | VS Code + Copilot                              | Other Chat Tools                       |
+| ---------------------- | ---------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | -------------------------------------- |
+| Reads local files      | Yes                                                        | Yes                                                    | Yes (Agent Mode)                               | No                                     |
+| Writes/edits files     | Yes                                                        | Yes                                                    | Yes (Agent Mode)                               | No                                     |
+| Runs terminal commands | No                                                         | Yes                                                    | Yes                                            | No                                     |
+| `/slash-commands`      | No (plain English)                                         | Yes (16 skills)                                        | No (natural language)                          | No                                     |
+| Git workflow           | GitHub Desktop                                             | Built-in                                               | Built-in                                       | Manual                                 |
+| Setup complexity       | Low                                                        | Medium                                                 | Medium                                         | Minimal                                |
+| Best for               | Most students                                              | Claude Code users                                      | GitHub Education users                         | Last resort                            |
 | Setup guide            | [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) | [QUICKSTART-CLAUDE-CODE.md](QUICKSTART-CLAUDE-CODE.md) | [QUICKSTART-COPILOT.md](QUICKSTART-COPILOT.md) | [STARTER_PROMPT.md](STARTER_PROMPT.md) |
 
 ---
@@ -106,6 +104,8 @@ Note: Without Git, you will not have version history and cannot push to GitHub f
 
 Your quickstart covers everything from here: configuring your case, gathering sources, writing all three documents, verifying your work, and submitting.
 
+
+
 ---
 
 ## Workflow Overview
@@ -132,24 +132,24 @@ Check your progress anytime: `/check-status` (Claude Code) or *"What's the curre
 
 ## What's in This Repository
 
-| Path                              | Purpose                                                         |
-| --------------------------------- | --------------------------------------------------------------- |
-| `QUICKSTART-CLAUDE-COWORK.md`     | **Recommended**: Full setup and workflow guide for Cowork users  |
-| `QUICKSTART-CLAUDE-CODE.md`       | Alternative: Full setup and workflow guide for Claude Code users |
-| `QUICKSTART-COPILOT.md`           | Alternative: Full setup and workflow guide for VS Code + Copilot users |
-| `STARTER_PROMPT.md`               | Prompt for chat tools (ChatGPT, Claude.ai, Gemini) only          |
-| `WORKFLOW.md`                     | Detailed phase-by-phase workflow reference                      |
-| `case-config.yaml`                | Central configuration (auto-written by setup)                   |
-| `verification-debt.yaml`          | Tracks unverified AI-generated claims                           |
-| `sources/`                        | Your research materials                                         |
-| `sources/Source_Registry.md`      | Source catalog with quality tiers                               |
-| `case-study/`                     | Where your three case documents will live                       |
-| `exports/`                        | PDF exports for submission                                      |
+| Path                              | Purpose                                                                                                                                                                 |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `QUICKSTART-CLAUDE-COWORK.md`     | **Recommended**: Full setup and workflow guide for Cowork users                                                                                                         |
+| `QUICKSTART-CLAUDE-CODE.md`       | Alternative: Full setup and workflow guide for Claude Code users                                                                                                        |
+| `QUICKSTART-COPILOT.md`           | Alternative: Full setup and workflow guide for VS Code + Copilot users                                                                                                  |
+| `STARTER_PROMPT.md`               | Prompt for chat tools (ChatGPT, Claude.ai, Gemini) only                                                                                                                 |
+| `WORKFLOW.md`                     | Detailed phase-by-phase workflow reference                                                                                                                              |
+| `case-config.yaml`                | Central configuration (auto-written by setup)                                                                                                                           |
+| `verification-debt.yaml`          | Tracks unverified AI-generated claims                                                                                                                                   |
+| `sources/`                        | Your research materials                                                                                                                                                 |
+| `sources/Source_Registry.md`      | Source catalog with quality tiers                                                                                                                                       |
+| `case-study/`                     | Where your three case documents will live                                                                                                                               |
+| `exports/`                        | PDF exports for submission                                                                                                                                              |
 | `ai-usage-log.md`                 | Running log of AI usage (required deliverable — contributes directly to the AI Tool Usage & Process and Verification rubric dimensions described in the Assignment PDF) |
-| `templates/`                      | Detailed prompts, QA workflows, source guides                   |
-| `.claude/skills/`                 | Claude Code skill definitions (also read by Cowork)             |
-| `.github/copilot-instructions.md` | VS Code Copilot custom instructions                             |
-| `PROJECT_CONTEXT.md`              | Session continuity context                                      |
+| `templates/`                      | Detailed prompts, QA workflows, source guides                                                                                                                           |
+| `.claude/skills/`                 | Claude Code skill definitions (also read by Cowork)                                                                                                                     |
+| `.github/copilot-instructions.md` | VS Code Copilot custom instructions                                                                                                                                     |
+| `PROJECT_CONTEXT.md`              | Session continuity context                                                                                                                                              |
 
 ---
 
@@ -185,8 +185,6 @@ Before submitting, make your GitHub repository **public**:
 2. Click **Settings → scroll to Danger Zone → Change visibility → Make public**.
 
 Then follow the submission instructions on the Canvas assignment page for the complete list of deliverables, file naming requirements, and upload steps.
-   
-   
 
 ---
 

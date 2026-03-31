@@ -63,11 +63,11 @@ Sources that only describe what happened without explaining the decision context
 
 Once registered, each source is assigned a quality tier:
 
-| Tier | Type | Examples |
-| ---- | ---- | -------- |
+| Tier   | Type                         | Examples                                                             |
+| ------ | ---------------------------- | -------------------------------------------------------------------- |
 | **T1** | Primary / direct attribution | Interview transcripts, executive quotes, SEC filings, earnings calls |
-| **T2** | Secondary / reported | News articles, analyst reports, business press profiles |
-| **T3** | Background / tertiary | Wikipedia, encyclopedia entries, general overviews |
+| **T2** | Secondary / reported         | News articles, analyst reports, business press profiles              |
+| **T3** | Background / tertiary        | Wikipedia, encyclopedia entries, general overviews                   |
 
 A strong case study package relies primarily on T1 and T2 sources. Heavy reliance on T3 sources is a quality risk.
 
@@ -145,15 +145,15 @@ Run a full quality check before submitting. **This step is a graded component** 
 
 The verification suite checks:
 
-| Check | What It Does |
-| ----- | ------------ |
-| Quote traceability | Every quote traced back to a dated, named source |
-| Data point attribution | Every number attributed to a specific document |
-| Cross-document consistency | Same figures used throughout all three documents |
-| Financial arithmetic | Stated percentages and totals verified against underlying data |
-| Narrative accuracy | Case story consistent with what sources actually report |
-| Source balance | Multiple perspectives represented; no single-source narrative |
-| URL validity | All links in source registry resolve |
+| Check                      | What It Does                                                   |
+| -------------------------- | -------------------------------------------------------------- |
+| Quote traceability         | Every quote traced back to a dated, named source               |
+| Data point attribution     | Every number attributed to a specific document                 |
+| Cross-document consistency | Same figures used throughout all three documents               |
+| Financial arithmetic       | Stated percentages and totals verified against underlying data |
+| Narrative accuracy         | Case story consistent with what sources actually report        |
+| Source balance             | Multiple perspectives represented; no single-source narrative  |
+| URL validity               | All links in source registry resolve                           |
 
 For every flag raised, either find a source that confirms the claim or remove the claim. Document all corrections in `ai-usage-log.md`. Rerun checks after corrections until the suite is clean.
 
@@ -171,14 +171,16 @@ Export your case documents to PDF format and save them to the `exports/` folder.
 
 ### Make Repository Public
 
-Your GitHub repository must be public for submission:
+Your<u> ***GitHub repository must be public***</u> for submission:
 
 1. Go to your repository on [github.com](https://github.com/)
 2. Click **Settings → scroll to Danger Zone → Change visibility → Make public**
 
-### Submit to Canvas
+## Phase 7: Submit to Canvas
 
-See the **Assignment Instructions PDF** on Canvas for the complete deliverables list and file-naming requirements. In brief, you will submit your two-page report (PDF), PDF export(s) of your three case documents, and a link to your public GitHub repository.
+### Follow the Instructions on Canvas
+
+See the **Assignment Instructions PDF** and submission instructions on Canvas for the complete deliverables list and file-naming requirements. In brief, you will submit your two-page report (PDF), PDF export(s) of your three case documents, and a link to your public GitHub repository.
 
 ---
 
