@@ -104,7 +104,7 @@ Note: Without Git, you will not have version history and cannot push to GitHub f
 
 Your quickstart covers everything from here: configuring your case, gathering sources, writing all three documents, verifying your work, and submitting.
 
-More guidance on the process you can take to build the case can be found in [WORKFLOW.md](WORKFLOW.MD)].
+More guidance on the process you can take to build the case can be found in [WORKFLOW.md](WORKFLOW.MD).
 
 ---
 
