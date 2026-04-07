@@ -5,7 +5,7 @@ A starter kit for creating Harvard Business School (HBS)-style MBA case studies 
 [![Template Version](https://img.shields.io/badge/template-v3.1.2-blue)](TEMPLATE_VERSION)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 
-> **REVISED — March 2026**: Claude Cowork is now the **recommended path** for this assignment — no terminal, no extensions, no Git knowledge required. See [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) to get started. Students who already use Claude Code or VS Code + Copilot can continue with those paths using the alternative quickstarts below.
+> **REVISED — March 2026**: Claude Cowork is now the **recommended path** for this assignment — no terminal, no extensions, no Git knowledge required. See [QUICKSTART-CLAUDE-COWORK.md](QUICKSTART-CLAUDE-COWORK.md) to get started. Students who already use Claude Code or VS Code + Copilot can continue with those paths using the alternative quickstarts below. This is a forked and updated version of Professor Leif Ulstrup's original repository found here: https://github.com/leifulstrup/Agentic-AI-Case-Study-Development-Starter-Kit.
 
 ---
 
